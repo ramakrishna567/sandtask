@@ -1,0 +1,78 @@
+.example-card {
+    max-width: 100%;
+    margin: 2em;
+    border: 2px solid black;
+  }
+  
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%
+  }
+  
+  .example-container > * {
+    width: 100%;
+    display: block;
+  }
+
+  form > *{
+    display: block;
+  }
+  .mat-card-header{
+      padding: 1em;
+      margin: 10px;
+  }
+
+  .mat-icon{
+      font-size: 100px;
+      color: blue;
+      display: flex;
+      height: 70px;
+      width: 70px;
+      color: #0097a9;
+  }
+  h1{
+      display: inline-block;
+      padding: 0;
+      margin-left: 10px;
+      color: #0097a9;
+  }
+  button{
+      color: blueviolet;
+      border: 1px solid black;
+      margin-bottom: 20px;
+  }
+  
+  .mat-card-content, .mat-card-actions{
+      margin-left: 2em;
+  }
+  .searchBox {
+    width: 250px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 4px;
+  }
+
+  .searchBox-error{
+    width: 250px;
+    box-sizing: border-box;
+    border: 3px solid red;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 4px;
+  }
+
+  form .search-label{
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+form .mat-checkbox{
+    margin-top: 10px;
+}
+
+.mat-card>.mat-card-actions:last-child{
+    margin-bottom: 2em;
+}
